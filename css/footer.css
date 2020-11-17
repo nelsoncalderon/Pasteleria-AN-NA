@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+#footer1{
+    background: rgb(255, 202, 96);
+    font-family: 'Hind Madurai', sans-serif;
+    color:white;
+    border-top: 5px solid  #f07940;
+}
+
+#footer1 a{
+  color: white;
+}
+
+#footer1 img{
+  height: 50px;
+}
+
+#footer1 .fb, .tw, .ins, .wh{
+  transition: all 0.25s;
+  cursor: pointer;
+  margin-right: ;
+}
+
+
+
+#footer1 .fb :hover {
+  transform: translateY(-15px);
+}
+#footer1 .tw :hover {
+  transform: translateY(-15px);
+}
+#footer1 .ins :hover {
+  transform: translateY(-15px);
+}
+#footer1 .wh :hover {
+  transform: translateY(-15px);
+}
+
+#footer2{
+    font-family: 'Hind Madurai', sans-serif;
+    color:white;
+    background: #f07940;
+}
+
+

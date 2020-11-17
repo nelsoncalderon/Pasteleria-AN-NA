@@ -1,0 +1,102 @@
+#main .carousel-item img{
+    max-height: 70vh;
+    object-fit: cover;
+    
+  }
+  
+  #carousel {
+      position: relative;
+  }
+  
+  #carousel .overlay{
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(8, 8, 8, 0.459);
+      color:white;
+  }
+  
+  #carousel .overlay .row h1{
+      font-size: 150px;
+      text-align: center;
+  }
+  
+  #carousel .overlay .container,
+  #carousel .overlay .row{
+      height: 100%;
+  }
+
+ .texto-i {
+  
+    padding-left: 20%;
+    margin-bottom: -15%;
+ 
+ }
+
+ .sub {
+     font-size: 30px; 
+ }
+
+ .sub2 {
+    font-size: 20px; 
+}
+
+  #presentacion h3{
+    font-size: 50px; 
+}
+
+  #presentacion {
+      background-color:rgb(255, 202, 96);
+      color: white;
+      border-bottom: 3px solid   #f07940;
+      border-top: 3px solid  #f07940;
+  }
+
+  .c1 {
+      background:  #f07940;
+      box-shadow: 0 12px 16px rgba(0, 0, 0,0.2);
+      padding: 5%;
+  }
+  
+  
+  #informacion{
+     
+      background-image: url(../img/fondo3.gif);
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      filter: grayscale(90%);
+      height: 300px;
+  }
+
+  #informacion .container{
+     background: #ff5100a9;
+     color:white;
+}
+
+#informacion .h3{
+    font-size: 50px;
+}
+
+#informacion .h3{
+    font-size: 50px;
+}
+
+.tex{
+    padding: 10%;
+}
+
+  @media only screen and (max-width: 750px) {
+    #carousel .overlay .row h1{
+        font-size: 70px;
+    }
+
+    .texto-i {
+        padding-left: 10%;
+     
+     }
+
+
+  }

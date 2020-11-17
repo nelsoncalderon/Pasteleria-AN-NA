@@ -1,0 +1,40 @@
+#informacion {
+    background:rgb(255, 202, 96);
+    color: white;
+    text-align: justify;
+}
+  #informacion img {
+    height: 400px;
+    padding: 10px;
+}
+
+#informacion .fon2 img {
+  height: 340px;
+
+}
+
+.con1{
+    padding: 10px;
+    background:  #f07940;
+    color: white;
+}
+
+
+
+#informacion3 {
+    background-image: url(../img/f2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+
+  @media only screen and (max-width: 750px) {
+    #informacion img {
+        height: 250px;
+    }
+
+
+  }
